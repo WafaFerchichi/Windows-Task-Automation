@@ -1,0 +1,23 @@
+# Ignore Windows temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*.old
+
+# Ignore PowerShell script logs
+*.ps1.log
+
+# Ignore backup files
+*.bak
+*.backup
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore build output directories
+bin/
+obj/
+
+# Ignore coverage reports
+coverage/
