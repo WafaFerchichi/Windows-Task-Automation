@@ -26,3 +26,24 @@ cd scripts
 # Run the disk cleanup script
 .\DiskCleanup.ps1
 ```
+
+### 2. System Updates
+
+#### Script: `SystemUpdates.ps1`
+
+This script automates the process of checking for and installing Windows updates.
+
+#### Prerequisites
+
+- Run PowerShell as an administrator.
+
+#### Usage
+
+```powershell
+# Navigate to the scripts directory
+cd scripts
+
+# Run the system updates script
+.\SystemUpdates.ps1
+
+```
