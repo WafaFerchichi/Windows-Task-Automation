@@ -104,8 +104,3 @@ Use Task Scheduler to run these scripts at regular intervals.
    - Conditions and Settings: Configure as needed, such as waking the computer to run the task.
 
 For more detailed instructions on using Task Scheduler, refer to the [official documentation](https://docs.microsoft.com/en-us/windows/win32/taskschd/task-scheduler-start-page).
-" >> docs/Documentation.md
-
-git add docs/Documentation.md
-git commit -m "Add Task Scheduler setup documentation"
-git push origin master
