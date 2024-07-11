@@ -89,6 +89,8 @@ cd scripts
 .\PerformanceMonitoring.ps1
 ```
 
+echo "## Task Scheduling
+
 Use Task Scheduler to run these scripts at regular intervals.
 
 ### Setting Up Task Scheduler
