@@ -1,7 +1,10 @@
 # PerformanceMonitoring.ps1
 
+# Get the current date and time in the format YYYY-MM-DD_HH-MM-SS
+$timestamp = (Get-Date).ToString("yyyy-MM-dd_HH-mm-ss")
+
 # Define the path to save the performance report
-$ReportPath = "C:\PerformanceReports\PerformanceReport.html"
+$ReportPath = "C:\PerformanceReports\PerformanceReport_$timestamp.html"
 
 # Ensure the directory exists
 $ReportDirectory = Split-Path -Path $ReportPath -Parent
