@@ -88,3 +88,26 @@ cd scripts
 # Run the performance monitoring script
 .\PerformanceMonitoring.ps1
 ```
+
+echo "## Task Scheduling
+
+Use Task Scheduler to run these scripts at regular intervals.
+
+### Setting Up Task Scheduler
+
+1. Open Task Scheduler.
+2. Create a new task for each script:
+   - General: Name the task and add a description.
+   - Triggers: Set triggers (e.g., daily, weekly) for when the task should run.
+   - Actions: Set the action to run the PowerShell script:
+     \`\`\`powershell
+     powershell.exe -File \"C:\Path\To\Your\Script.ps1\"
+     \`\`\`
+   - Conditions and Settings: Configure as needed, such as waking the computer to run the task.
+
+For more detailed instructions on using Task Scheduler, refer to the [official documentation](https://docs.microsoft.com/en-us/windows/win32/taskschd/task-scheduler-start-page).
+" >> docs/Documentation.md
+
+git add docs/Documentation.md
+git commit -m "Add Task Scheduler setup documentation"
+git push origin master
