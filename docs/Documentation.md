@@ -47,3 +47,44 @@ cd scripts
 .\SystemUpdates.ps1
 
 ```
+
+### 3. Backup
+
+#### Script: `Backup.ps1`
+
+This script automates the backup of important files to a specified location or external drive.
+
+#### Prerequisites
+
+- Ensure the backup drive is connected.
+
+#### Usage
+
+```powershell
+# Navigate to the scripts directory
+cd scripts
+
+# Run the backup script
+.\Backup.ps1 -SourceDirectory "C:\ImportantFiles" -BackupDirectory "E:\Backups"
+
+```
+
+### 4. Performance Monitoring
+
+#### Script: `PerformanceMonitoring.ps1`
+
+This script monitors system performance and generates an HTML report of the top 10 processes by CPU usage.
+
+#### Prerequisites
+
+- None
+
+#### Usage
+
+```powershell
+# Navigate to the scripts directory
+cd scripts
+
+# Run the performance monitoring script
+.\PerformanceMonitoring.ps1
+```
